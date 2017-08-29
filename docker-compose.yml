@@ -173,19 +173,18 @@ services:
       - nginx
     labels:
       - 'traefik.backend=jenkins'
-      - 'traefik.port=8090'
+      - 'traefik.port=8080'
       - 'traefik.frontend.rule=Host:test.drupal.docker.localhost'
     expose:
       - "8090"
-      - "8000"
     ports:
-      - "8090:8090"
-      - "8000:8000"
+      - "8080:8080"
+      - "5000:5000"
     volumes:
       - /usr/bin/docker:/usr/bin/docker
       - /var/run/docker.sock:/var/run/docker.sock
       - ./jenkins/jenkins_home:/var/jenkins_home
-    command: sh -c 'gulp'
+#    command: sh -c 'gulp'
 
 
 #  memcached:

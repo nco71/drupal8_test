@@ -1,0 +1,22 @@
+uuid: aecae599-74fb-42cb-90b1-281c66ae5944
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - monoset
+_core:
+  default_config_hash: '-9Si5gSqhao1xMtGETzHMPzISRtd2lwC3ESwq0sCyPE'
+id: monoset_help
+theme: monoset
+region: content_top
+weight: 6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

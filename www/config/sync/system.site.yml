@@ -1,0 +1,14 @@
+uuid: e5268280-e413-415a-921b-57093646c30d
+name: 'drupal 8 test'
+mail: chauxcedric@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

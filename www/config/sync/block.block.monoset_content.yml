@@ -1,0 +1,22 @@
+uuid: e9f22d3a-fb55-40e8-a9fa-ddc43894d77a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - monoset
+_core:
+  default_config_hash: izvsDy_FVhwz_j8-lLboA_twtrLOrODxPKt_5rCRCqs
+id: monoset_content
+theme: monoset
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: d8fe8f84-0c30-47a3-a518-8f8cad48c76c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - monoset
+_core:
+  default_config_hash: jhnJwdTh2EsVAfeGR-o6DsMcOwdYoQfwG1ysOTYgR4Q
+id: monoset_local_tasks
+theme: monoset
+region: content_top
+weight: 4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

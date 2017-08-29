@@ -1,0 +1,14 @@
+uuid: e024ef5b-69f1-44ab-9c7e-75d7a5fe50aa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - chauxcedric@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

@@ -1,0 +1,22 @@
+uuid: 82cbc538-09be-4d98-98fe-4ce36b741304
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - monoset
+_core:
+  default_config_hash: pr1Mvj7SxfD0WJ--TvGzOoeBkzjyFVFNRHSr5PPJ5KA
+id: monoset_search
+theme: monoset
+region: footer
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: d21faf94-7177-4498-9c58-e067241037e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - monoset
+_core:
+  default_config_hash: uCsg1e0eySsEGU09H4-I4bsISLISTJ1PJEXp4P3p9Xk
+id: monoset_tools
+theme: monoset
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

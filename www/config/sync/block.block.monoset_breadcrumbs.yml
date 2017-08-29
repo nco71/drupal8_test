@@ -1,0 +1,22 @@
+uuid: 89e31ac0-e6a4-4d7e-b973-e6e78ce95a49
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - monoset
+_core:
+  default_config_hash: gtqoCC6ET8ptnaVgFdL5k8Olm87A5NLRaGSLA9JX36o
+id: monoset_breadcrumbs
+theme: monoset
+region: content_top
+weight: 1
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

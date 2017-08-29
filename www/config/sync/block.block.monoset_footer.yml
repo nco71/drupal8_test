@@ -1,0 +1,26 @@
+uuid: c0300055-794f-4832-b92f-29f15abacd1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - monoset
+_core:
+  default_config_hash: MYp4sY0mN5I6WyFeyp68kW0esalB8Z4JnW47AVdHayQ
+id: monoset_footer
+theme: monoset
+region: nav
+weight: 2
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

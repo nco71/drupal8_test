@@ -1,0 +1,22 @@
+uuid: 52252a21-36d1-4bf0-bce5-3207e82b9c96
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - monoset
+_core:
+  default_config_hash: jpnOktjOZvsHtoBlcL9g_ua_dA2i36OY3V3VgoUrBmY
+id: monoset_messages_front
+theme: monoset
+region: front_two
+weight: -20
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
