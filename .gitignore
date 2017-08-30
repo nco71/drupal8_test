@@ -23,3 +23,4 @@
 # Ignore Docker Database files 
 /mariadb/*
 /mariadb-init/*
+
