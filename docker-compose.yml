@@ -1,6 +1,28 @@
 version: "2"
 
 services:
+
+  registry:
+    restart: always
+    image: registry:2
+    ports:
+      - 5000:5000
+    environment:
+      REGISTRY_HTTP_TLS_CERTIFICATE: /certs/domain.crt
+      REGISTRY_HTTP_TLS_KEY: /certs/domain.key
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+    volumes:
+      - /registry/data:/var/lib/registry
+      - /registry/certs:/certs
+      - /registry/auth:/auth
+    labels:
+      - 'traefik.backend=registry'
+      - 'traefik.port=5000'
+      - 'traefik.frontend.rule=Host:registry.docker.localhost'
+
+
   mariadb:
     image: wodby/mariadb:10.1-2.3.3
     environment:
@@ -174,12 +196,12 @@ services:
     labels:
       - 'traefik.backend=jenkins'
       - 'traefik.port=8080'
-      - 'traefik.frontend.rule=Host:test.drupal.docker.localhost'
+      - 'traefik.frontend.rule=Host:jenkins.drupal.docker.localhost'
     expose:
       - "8090"
-    ports:
-      - "8080:8080"
-      - "5000:5000"
+#    ports:
+#      - "8080:8080"
+#      - "5000:5000"
     volumes:
       - /usr/bin/docker:/usr/bin/docker
       - /var/run/docker.sock:/var/run/docker.sock

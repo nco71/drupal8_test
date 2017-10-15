@@ -1,0 +1,26 @@
+Started
+[Fri Sep 15 02:09:50 GMT 2017] Starting branch indexing...
+[8mha:////4ASd4Qd5Jvgmu8RH5E9Ko2RzzlxYGJfTb9ppgOACkeYzAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRcs89iJwDC8Jw9jgAAAA==[0mConnecting to https://api.github.com using nco71/****** (github password)
+[8mha:////4I6rlXuKicGhNClh9ZkXjIYeLOYct78Fe+AC+vsNu+4OAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRcs89yXgDHaZO/jgAAAA==[0mConnecting to https://api.github.com using nco71/****** (github password)
+Examining [8mha:////4FIS5DyHcgp+cgSn00+95t4i1KHP06bzg5WEVVfdtRjrAAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKmFQzSgpKSi20tdPzyzJKE0C6srVz0vONzfUTykqLUjMsYgvSS0uAQAhklo2qgAAAA==[0mnco71/drupal8_test
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DbjWAb3eOsg7aS1BH6ixLCHR0zfDmmdOXNXaGIPMjgzAAAArx+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoac0gACpaIBKaJhAGSCZQcc2zqfUViDNaBhCMZhB4LS8Zr/mv+eHxgFgqmOp+BsVjkbnJHZ5uYlmdpedo7lrHi8irt/J5BsITXSKtYlDCMZhnF5FleBRliFe6baqlVLMPnLrfv9xaBnkAC0vpOUIdfMPiwRVc06HrtXg7Zy8xxPFL0wiwPLwMgkJTYisKQv1qIjhLYAAAA=[0mmaster
+
+  Getting remote pull requests...
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  0 pull requests were processed
+
+Finished examining nco71/drupal8_test
+
+[Fri Sep 15 02:09:54 GMT 2017] Finished branch indexing. Indexing took 4.2 sec
+Finished: SUCCESS
