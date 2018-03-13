@@ -4,12 +4,8 @@
   "description": "Drupal 8 Theme",
   "author": "Andrei Zvonkov <zvonkov@gmail.com>",
   "homepage": "http://subtleshift.net",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:zetagraph/monoset.git"
-  },
-  "bugs": {
-    "url": "https://github.com/zetagraph/monoset/issues"
+  "scripts": {
+    "start": "gulp --gulpfile /home/node/app/gulpfile.js"
   },
   "licenses": [
     {
@@ -18,20 +14,21 @@
     }
   ],
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "es6-promise": "^4.1.1",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-beautify": "^2.0.1",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-jshint": "^2.0.4",
-    "gulp-load-plugins": "^1.5.0",
-    "gulp-notify": "^3.0.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-shell": "^0.6.3",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
-    "jshint-stylish": "^2.2.1",
-    "sc5-styleguide": "^2.0.3 "
+    "browser-sync": "*",
+    "es6-promise": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-beautify": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-notify": "*",
+    "gulp-sass": "*",
+    "gulp-shell": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "sc5-styleguide": "*"
   }
 }
